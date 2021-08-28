@@ -3,7 +3,7 @@
 ----If two or more students both have names ending in the same last three characters (i.e.: Bobby, Robby, etc.), 
 ----secondary sort them by ascending ID.
 
-IF OBJECT_ID ('#STUDENTS','U') IS NOT NULL DROP TABLE #STUDENTS;
+IF OBJECT_ID ('TEMPDB.DBO.#STUDENTS','U') IS NOT NULL DROP TABLE #STUDENTS;
 
 
 CREATE TABLE #STUDENTS(

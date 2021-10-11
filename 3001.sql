@@ -26,7 +26,6 @@ INSERT INTO #PRODUCTS ([NAME],[TYPE],[PRICE]) VALUES
 ('Gaming Chair','C',0),
 ('Mouse','A',0)
 
-
 SELECT
 	[NAME],
 	CASE	
